@@ -4,7 +4,8 @@ import Task from './Task'
 
 function App() {
   return (
-
+    <List />,
+    <Task />
   );
 }
 
