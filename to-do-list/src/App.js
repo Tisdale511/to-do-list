@@ -7,7 +7,9 @@ function App() {
 
   const [tasks, setTasks] = setState([])
 
-
+  const addTask = taskName => {
+    setTasks(oldTaskList => [...oldTaskList, taskName])
+  }
 
 
   return (
