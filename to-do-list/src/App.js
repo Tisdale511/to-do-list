@@ -13,7 +13,7 @@ function App() {
 
 
   return (
-    <List />,
+    <List tasks={tasks}/>,
     <Task addTask={addTask} />
   );
 }
