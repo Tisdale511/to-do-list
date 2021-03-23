@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import List from './List';
 import Task from './Task';
+import NewTask from './NewTask';
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
 
   return (
     <List tasks={tasks}/>,
-    <Task addTask={addTask} />
+    <Task addTask={addTask} />,
+    <NewTask addTask={addTask} />
   );
 }
 
