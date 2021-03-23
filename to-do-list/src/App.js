@@ -14,7 +14,7 @@ function App() {
 
   return (
     <List />,
-    <Task />
+    <Task addTask={addTask} />
   );
 }
 
