@@ -18,7 +18,7 @@ function App() {
     <div>hello world
       <List tasks={tasks}/>,
       {/* <Task addTask={addTask} />, */}
-      {/* <Header/>, */}
+      <Header/>,
       <NewTask addTask={addTask} />
     </div>  
   );
