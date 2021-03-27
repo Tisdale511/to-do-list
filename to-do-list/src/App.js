@@ -3,6 +3,7 @@ import './App.css';
 import List from './List';
 // import Task from './Task';
 import NewTask from './NewTask';
+import Header from './Header'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <div>hello world
       <List tasks={tasks}/>,
       {/* <Task addTask={addTask} />, */}
+      {/* <Header/>, */}
       <NewTask addTask={addTask} />
     </div>  
   );
