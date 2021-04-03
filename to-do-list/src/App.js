@@ -4,7 +4,7 @@ import List from './List';
 import Task from './Task';
 import NewTask from './NewTask';
 import Header from './Header'
-import DeleteTask from './DeleteTask'
+// import DeleteTask from './DeleteTask'
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
   return (
     <div>hello world
       <List tasks={tasks}/>,
-      <DeleteTask />,
+      {/* <DeleteTask />, */}
       <Task addTask={addTask} />,
       <Header/>,
       <NewTask addTask={addTask} />
