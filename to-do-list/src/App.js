@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import List from './List';
-// import Task from './Task';
+import Task from './Task';
 import NewTask from './NewTask';
 import Header from './Header'
 
